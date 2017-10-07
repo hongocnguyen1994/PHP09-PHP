@@ -63,8 +63,6 @@
 			else {
 				echo "Your email: " . $email . "<br>";
 			}
-			
-			
 		}
 	?>
 </body>
