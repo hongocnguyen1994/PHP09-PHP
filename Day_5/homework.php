@@ -23,7 +23,7 @@
             $servername = "localhost";
             $username = "root";
             $password = "";
-            $database = "users";
+            $database = "users_db";
 
             $folderSaveImg = 'images/';
 
