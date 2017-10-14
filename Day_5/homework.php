@@ -39,9 +39,7 @@
 
                 $imageFileType = pathinfo($fileName,PATHINFO_EXTENSION);
 
-                if($imageFileType == "JPG" || $imageFileType == "JPEG") {
-					move_uploaded_file($_FILES['avatarName']['tmp_name'], $folderSaveImg.$fileName);
-				}
+				move_uploaded_file($_FILES['avatarName']['tmp_name'], $folderSaveImg.$fileName);
 
                 $sql = "INSERT INTO users (name, username, password, avatar)
                 VALUES ('$name', '$userName', '$password', '$fileName')";
